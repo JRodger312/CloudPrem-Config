@@ -19,7 +19,7 @@ locals {
   # Note: This variable is auto-populated via a parameter in the cloudformation stack creation. You should only set
   # this variable if you already have an SSM parameter setup for the dozuki license before stack creation.
   #
-  dozuki_license_parameter_name = "/dozuki/qa/license"
+  #dozuki_license_parameter_name = "/dozuki/qa/license"
 
   # On fresh installs this variable specifies which sequence number to install. This sequence number must be available
   # to your customer account. If left blank or set to 0 (default) the latest sequence number available will be installed.
