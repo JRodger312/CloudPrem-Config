@@ -34,7 +34,7 @@ locals {
   #
   # Possible options: true, false
   # Default: false
-  enable_webhooks = true
+  # enable_webhooks = true
 
   # Specify whether data protection settings should be enabled for databases, s3 buckets, and compute clusters. This should
   # be set to true for production stacks and false for others. When set to true, databases will have deletion protection
