@@ -26,7 +26,7 @@ locals {
   #
   # Possible options: 0 - latest sequence number provided by Dozuki
   # Default: 0 (which will install latest sequence)
-  replicated_app_sequence_number = 4576
+  replicated_app_sequence_number = 4578
 
   # This option will spin up additional infrastructure to support webhooks. This includes an external AWS managed Kafka
   # cluster as well as redis and mongodb deployed onto the kubernetes cluster. Webhooks must be enabled on your license
@@ -34,7 +34,7 @@ locals {
   #
   # Possible options: true, false
   # Default: false
-  #enable_webhooks = false
+  enable_webhooks = true
 
   # Specify whether data protection settings should be enabled for databases, s3 buckets, and compute clusters. This should
   # be set to true for production stacks and false for others. When set to true, databases will have deletion protection
