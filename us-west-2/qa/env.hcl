@@ -26,7 +26,7 @@ locals {
   #
   # Possible options: 0 - latest sequence number provided by Dozuki
   # Default: 0 (which will install latest sequence)
-  #replicated_app_sequence_number = 0
+  replicated_app_sequence_number = 4580
 
   # This option will spin up additional infrastructure to support webhooks. This includes an external AWS managed Kafka
   # cluster as well as redis and mongodb deployed onto the kubernetes cluster. Webhooks must be enabled on your license
