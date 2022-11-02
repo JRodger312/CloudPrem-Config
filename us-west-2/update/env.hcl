@@ -5,7 +5,7 @@ locals {
 
   # Environment name to be appended to all resource names. Should be unique per region.
   # The length of the Environment value must be 6 characters or less.
-  environment = "update"
+  environment = "updat"
 
   # Additional identifier to be prepended to all resource names
   # Note: This variable can be set at stack creation via the cloudformation template. If you do set this variable here
